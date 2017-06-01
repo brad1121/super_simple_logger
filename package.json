@@ -1,0 +1,16 @@
+{
+  "name": "super_simple_logger",
+  "version": "1.0.0",
+  "description": "Just a super simple tool for logging data to a file",
+  "main": "index.js",
+  "repository": "https://github.com/brad1121/super_simple_logger.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Logging",
+    "simple"
+  ],
+  "author": "Brad",
+  "license": "MIT"
+}
