@@ -1,7 +1,7 @@
 'use strict';
 const fs = require('fs');
 var os = require("os");
-module.exports = (level,message,log_path = './simple_logger.txt')=>{
+module.exports = (level,message,log_path = './super_simple_logger.txt')=>{
 	return new Promise((resolve,reject)=>{
 		if(typeof message == 'Array' || typeof message == 'Object' ){
 			message = JSON.stringify(message);
